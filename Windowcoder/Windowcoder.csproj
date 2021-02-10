@@ -52,6 +52,9 @@
     <Compile Include="Infos.xaml.cs">
       <DependentUpon>Infos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Loadpage.xaml.cs">
+      <DependentUpon>Loadpage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Startpage.xaml.cs">
       <DependentUpon>Startpage.xaml</DependentUpon>
     </Compile>
@@ -78,6 +81,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Loadpage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Startpage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -105,6 +112,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\splashscreen.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

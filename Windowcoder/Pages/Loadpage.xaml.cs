@@ -9,31 +9,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Windowcoder.Pages;
 using System.Threading;
 
-namespace Windowcoder
+namespace Windowcoder.Pages
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// Loadpage.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Loadpage : Window
     {
-        public MainWindow()
+        public Loadpage()
+        {
+            InitializeComponent();
+        }
+
+        private void toclose(object sender, RoutedEventArgs e)
         {
             
             
-            Loadpage myloadpage = new Loadpage();
-            myloadpage.Show();
-            Random random = new Random();
-            Thread.Sleep(random.Next(1000, 4000));
-            myloadpage.Close();
-            InitializeComponent();
-            
-
         }
-
     }
 }
