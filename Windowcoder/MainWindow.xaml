@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Windowcoder"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"  Visibility="Visible">
+        Title="Fish cmd coder" Height="450" Width="800"  Visibility="Visible" WindowStartupLocation="CenterScreen">
     <Grid>
-       
+        
+
 
     </Grid>
 </Window>
