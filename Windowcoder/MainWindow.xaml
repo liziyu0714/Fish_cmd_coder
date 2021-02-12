@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:Windowcoder"
        
         Title="Fish cmd coder" Height="440" Width="844"  Visibility="Visible" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg"/>
+    </Window.Background>
     <Grid>
         <Button HorizontalAlignment="Left" Margin="288.667,61.999,0,0" VerticalAlignment="Top" Width="232.334" Style="{StaticResource MyButton}" Height="249.999">
             <Image HorizontalAlignment="Left" Height="239.999" VerticalAlignment="Top" Width="222.334"/>
