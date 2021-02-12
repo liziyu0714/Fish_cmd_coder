@@ -2,12 +2,22 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mc="http://schemas.openxmlformats./markup-compatibility/2006"
         xmlns:local="clr-namespace:Windowcoder"
-        mc:Ignorable="d"
-        Title="Fish cmd coder" Height="450" Width="800"  Visibility="Visible" WindowStartupLocation="CenterScreen">
+       
+        Title="Fish cmd coder" Height="440" Width="844"  Visibility="Visible" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Button HorizontalAlignment="Left" Margin="288.667,61.999,0,0" VerticalAlignment="Top" Width="232.334" Style="{StaticResource MyButton}" Height="249.999">
+            <Image HorizontalAlignment="Left" Height="239.999" VerticalAlignment="Top" Width="222.334"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="575.333,84.666,0,0" VerticalAlignment="Top" Width="167.001" Style="{StaticResource ResourceKey=MyButton}" Height="201.999">
+            <Image HorizontalAlignment="Left" Height="191.999" VerticalAlignment="Top" Width="157.001"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="58,84.666,0,0" VerticalAlignment="Top" Width="167.001" Style="{StaticResource ResourceKey=MyButton}" Height="201.999">
+            <Image HorizontalAlignment="Left" Height="191.999" VerticalAlignment="Top" Width="157.001"/>
+        </Button>
+
+
 
 
     </Grid>

@@ -35,5 +35,9 @@ namespace Windowcoder
 
         }
 
+        private void gotohelppage(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello");
+        }
     }
 }
