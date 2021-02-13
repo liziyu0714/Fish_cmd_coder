@@ -11,14 +11,17 @@
     </Window.Background>
     <Grid>
         <Button HorizontalAlignment="Left" Margin="288.667,61.999,0,0" VerticalAlignment="Top" Width="232.334" Style="{StaticResource MyButton}" Height="249.999">
-            <Image HorizontalAlignment="Left" Height="239.999" VerticalAlignment="Top" Width="222.334"/>
+            <Image HorizontalAlignment="Left" Height="239.999" VerticalAlignment="Top" Width="222.334" Source="Start.png" Stretch="Fill"/>
         </Button>
         <Button HorizontalAlignment="Left" Margin="575.333,84.666,0,0" VerticalAlignment="Top" Width="167.001" Style="{StaticResource ResourceKey=MyButton}" Height="201.999">
-            <Image HorizontalAlignment="Left" Height="191.999" VerticalAlignment="Top" Width="157.001"/>
+            <Image HorizontalAlignment="Left" Height="191.999" VerticalAlignment="Top" Width="157.001" Source="info.png" Stretch="Fill"/>
         </Button>
         <Button HorizontalAlignment="Left" Margin="58,84.666,0,0" VerticalAlignment="Top" Width="167.001" Style="{StaticResource ResourceKey=MyButton}" Height="201.999">
-            <Image HorizontalAlignment="Left" Height="191.999" VerticalAlignment="Top" Width="157.001"/>
+            <Image HorizontalAlignment="Left" Height="201.999" VerticalAlignment="Top" Width="167.001" Source="help.png" Stretch="Fill"/>
         </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="88,307.333,0,0" TextWrapping="Wrap" Text="查看帮助" VerticalAlignment="Top" Height="30.667" Width="102.334" Foreground="White" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="363.333,323.292,0,0" TextWrapping="Wrap" Text="立即开始" VerticalAlignment="Top" Height="30.667" Width="102.334" Foreground="White" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="608.667,316.998,0,0" TextWrapping="Wrap" Text="关于..." VerticalAlignment="Top" Height="30.667" Width="102.334" Foreground="White" FontSize="24"/>
 
 
 
