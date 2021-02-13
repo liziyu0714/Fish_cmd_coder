@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats./markup-compatibility/2006"
         xmlns:local="clr-namespace:Windowcoder"
        
-        Title="Fish cmd coder" Height="440" Width="844"  Visibility="Visible" WindowStartupLocation="CenterScreen">
+        Title="Fish cmd coder" Height="440" Width="844"  Visibility="Visible" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Window.Background>
         <ImageBrush ImageSource="background.jpg"/>
     </Window.Background>
