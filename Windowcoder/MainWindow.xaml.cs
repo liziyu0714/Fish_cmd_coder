@@ -35,9 +35,14 @@ namespace Windowcoder
 
         }
 
-        private void gotohelppage(object sender, RoutedEventArgs e)
+        
+
+        private void gotohelp(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("hello");
+            Exception exception = new FishErrors.Functions_tobe_developed_Error("尚未开发");
+            exception.HelpLink = "https://github.com/liziyu0714/Fish_cmd_coder/wiki/%E9%94%99%E8%AF%AF%EF%BC%9AFishErrors.Functions_tobe_developed_Error%EF%BC%9A%E5%B0%9A%E6%9C%AA%E5%BC%80%E5%8F%91";
+            errorcatcher myerrorcatcher = new errorcatcher(exception);
+            myerrorcatcher.Show();
         }
     }
 }
